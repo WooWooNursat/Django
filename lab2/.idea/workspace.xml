@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea8f3f76-2b36-40c3-9ce6-971b3a7f2716" name="Default Changelist" comment="" />
+    <list default="true" id="ea8f3f76-2b36-40c3-9ce6-971b3a7f2716" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myenv/bin/easy_install" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myenv/bin/easy_install-3.8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myenv/bin/easy_install3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myenv/bin/pip-3.8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myenv/bin/wheel-3.8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myenv/bin/wheel3" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,17 +39,29 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1p0pII0MoAAqJRWiaggZGFGxoYc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="DatabaseDriversLRU" value="sqlite&#10;postgresql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -81,6 +101,11 @@
       <option name="presentableId" value="Default" />
       <updated>1614329781470</updated>
       <workItem from="1614329785210" duration="7530000" />
+      <workItem from="1614786041360" duration="689000" />
+      <workItem from="1614788890951" duration="2175000" />
+      <workItem from="1614868908367" duration="514000" />
+      <workItem from="1614912994066" duration="40000" />
+      <workItem from="1614916730950" duration="4564000" />
     </task>
     <servers />
   </component>
@@ -88,33 +113,45 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="320" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614330745566">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="320" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1614933797237">
+      <screen x="0" y="25" width="1440" height="810" />
     </state>
     <state x="320" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1614330745566" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1614355289184">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="320" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.810@0.25.1440.810" timestamp="1614933797237" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom" timestamp="1614936130589">
+      <screen x="0" y="25" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1614355289184" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1614355289182">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.25.1440.808@0.25.1440.808" timestamp="1614936130589" />
+    <state width="1398" height="205" key="GridCell.Tab.0.bottom/0.25.1440.810@0.25.1440.810" timestamp="1614935284741" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center" timestamp="1614936130588">
+      <screen x="0" y="25" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1614355289182" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1614355289181">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.25.1440.808@0.25.1440.808" timestamp="1614936130588" />
+    <state width="1398" height="205" key="GridCell.Tab.0.center/0.25.1440.810@0.25.1440.810" timestamp="1614935284741" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left" timestamp="1614936130588">
+      <screen x="0" y="25" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1614355289181" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1614355289183">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.25.1440.808@0.25.1440.808" timestamp="1614936130588" />
+    <state width="1398" height="205" key="GridCell.Tab.0.left/0.25.1440.810@0.25.1440.810" timestamp="1614935284741" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right" timestamp="1614936130588">
+      <screen x="0" y="25" width="1440" height="808" />
     </state>
     <state width="1398" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1614355289183" />
-    <state x="229" y="86" key="SettingsEditor" timestamp="1614340426079">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.25.1440.808@0.25.1440.808" timestamp="1614936130588" />
+    <state width="1398" height="205" key="GridCell.Tab.0.right/0.25.1440.810@0.25.1440.810" timestamp="1614935284741" />
+    <state x="229" y="102" key="SettingsEditor" timestamp="1614790493450">
+      <screen x="0" y="25" width="1440" height="808" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1614340426079" />
-    <state x="397" y="279" key="com.intellij.ide.util.TipDialog" timestamp="1614329785206">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="229" y="102" key="SettingsEditor/0.25.1440.806@0.25.1440.806" timestamp="1614788400520" />
+    <state x="229" y="102" key="SettingsEditor/0.25.1440.808@0.25.1440.808" timestamp="1614790493450" />
+    <state x="397" y="272" key="com.intellij.ide.util.TipDialog" timestamp="1614916895158">
+      <screen x="0" y="25" width="1440" height="808" />
     </state>
-    <state x="397" y="279" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1614329785206" />
+    <state x="397" y="275" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1614786092046" />
+    <state x="397" y="272" key="com.intellij.ide.util.TipDialog/0.25.1440.808@0.25.1440.808" timestamp="1614916895158" />
   </component>
 </project>
