@@ -75,7 +75,7 @@ class TaskViewSet(viewsets.ViewSet):
 
     def create(self, request, id):
         queryset = Task.objects.create(
-            list=id,
+            list=List.objects.get(id=id),
             task=self.request.data.get('task'),
             created=self.request.data.get('created'),
             due_on=self.request.data.get('due_on'),

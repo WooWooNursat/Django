@@ -17,8 +17,8 @@ class List(models.Model):
 class Task(models.Model):
     list = models.ForeignKey(List, on_delete=models.RESTRICT, related_name='tasks', verbose_name='List')
     task = models.CharField(max_length=255, null=True, blank=True, verbose_name="Task")
-    created = models.DateField(verbose_name="Created")
-    due_on = models.DateField(verbose_name="Due on")
+    created = models.DateField(verbose_name="Created", auto_now_add=True)
+    due_on = models.DateField(verbose_name="Due on", auto_now_add=True)
     owner = models.CharField(max_length=255, null=True, blank=True, verbose_name="Owner")
     mark = models.BooleanField(verbose_name="Mark")
 
